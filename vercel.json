@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/:path*",
+      "source": "*",
       "has": [
         {
           "type": "host",
@@ -11,7 +11,7 @@
       "destination": "/index2.html"
     },
     {
-      "source": "/:path*",
+      "source": "*",
       "has": [
         {
           "type": "host",
