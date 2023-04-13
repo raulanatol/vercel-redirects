@@ -1,24 +1,24 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "has": [
         {
           "type": "host",
           "value": "one.cowcoders.com"
         }
       ],
-      "destination": "/index1.html"
+      "destination": "/index2.html"
     },
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "has": [
         {
           "type": "host",
           "value": "one.raulanatol.dev"
         }
       ],
-      "destination": "/index2.html"
+      "destination": "/index3.html"
     }
   ]
 }
