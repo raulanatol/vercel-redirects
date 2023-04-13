@@ -1,21 +1,21 @@
 {
   "rewrites": [
     {
-      "source": "*",
+      "source": "/tt",
       "has": [
         {
           "type": "host",
-          "value": "cowcoders.com"
+          "value": "one.cowcoders.com"
         }
       ],
       "destination": "/index2.html"
     },
     {
-      "source": "*",
+      "source": "/tt",
       "has": [
         {
           "type": "host",
-          "value": "raulanatol.dev"
+          "value": "one.raulanatol.dev"
         }
       ],
       "destination": "/index3.html"
