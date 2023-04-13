@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "src": "/(.*)",
+      "source": "/(.*)",
       "has": [
         {
           "type": "host",
@@ -11,7 +11,7 @@
       "destination": "/index1.html"
     },
     {
-      "src": "/(.*)",
+      "source": "/(.*)",
       "has": [
         {
           "type": "host",
