@@ -19,6 +19,10 @@
         }
       ],
       "destination": "/index3.html"
+    },
+    {
+      "source": "/test",
+      "destination": "/index3.html"
     }
   ]
 }
