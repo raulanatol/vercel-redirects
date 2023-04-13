@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    {
+      "src": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "cowcoders.com"
+        }
+      ],
+      "destination": "/index1.html"
+    },
+    {
+      "src": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "raulanatol.dev"
+        }
+      ],
+      "destination": "/index2.html"
+    }
+  ]
+}
